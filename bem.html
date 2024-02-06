@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content ="width-device width,initial-scale1">
+	<title>Css Grid</title>
+</head>
+<style type="text/css">
+ *{
+ 	text-align: center;
+ }
+.container{ 
+        background: #fff;
+        display: inline;
+         }
+
+         header{
+        text-align: center;
+        background:#E9967A;
+        boarder-radius: 10px;
+        height: 40px;
+        font-size: 30px;
+         }
+.Left{
+background: #800000;
+text-align: center;
+width: 200px;
+}
+
+.Main{
+        background:#808000;
+        text-align: center;
+        flex-grow: 4;
+        flex-flow: column-wrap;
+}
+.Right{
+	    background: #000080;
+	    text-align: center;
+	    width:200px ;
+
+}
+.Parent{
+       height: 88vh;
+       display:flex ;
+       flex-direction: row;
+}
+.footer{
+        background: #800000;
+        text-align: center;
+        border-radius: 10px;
+        height: 20vh;
+}
+
+</style>
+<body>
+      <header>Header</header>
+  <div class="Parent"> 
+  <div class="Left"> LEFT SIDEBAR </div>
+  <div class= "Main"> MAIN CONTENT </div>
+  <div class="Right"> RIGHT SIDEBAR</div>
+</div>
+
+  <div class="Footer">
+  	Footer
+  </div>
+</body>
+</html>
